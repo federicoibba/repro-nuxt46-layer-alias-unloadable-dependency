@@ -7,8 +7,6 @@ node_modules
 .data
 dist
 
-# Packed layer tarball (regenerate with `npm pack` in packages/my-layer)
-packages/my-layer/*.tgz
 
 # Logs
 *.log
