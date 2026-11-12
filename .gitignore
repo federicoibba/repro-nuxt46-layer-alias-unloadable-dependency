@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Nuxt build artifacts
+.nuxt
+.output
+.data
+dist
+
+# Packed layer tarball (regenerate with `npm pack` in packages/my-layer)
+packages/my-layer/*.tgz
+
+# Logs
+*.log
+logs
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Caches
+.cache
+.vite
+
+# OS / editor
+.DS_Store
+.idea
+.vscode
+*.local
